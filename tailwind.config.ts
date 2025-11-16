@@ -58,6 +58,10 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
       },
+      backgroundImage: {
+        'deal-gradient': 'var(--deal-gradient)',
+        'hero-gradient': 'var(--hero-gradient)',
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
